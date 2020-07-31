@@ -1,4 +1,4 @@
-// C Program : Student Record System!
+// C Program : Body Mass Index Calculator
 // Programmer : Emmanuel Mbonza Mayambi
 
 #include <stdio.h>
