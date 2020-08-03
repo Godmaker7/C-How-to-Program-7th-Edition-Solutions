@@ -2,7 +2,6 @@
 // Programmer : Emmanuel Mbonza Mayambi
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
