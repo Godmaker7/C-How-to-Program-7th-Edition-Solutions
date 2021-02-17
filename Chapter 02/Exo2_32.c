@@ -1,5 +1,9 @@
-// C Program : Body Mass Index Calculator
-// Programmer : Emmanuel Mbonza Mayambi
+/*
+    C Program : Body Mass Index Calculator
+    Exercise : 2.32
+    Programmer : Emmanuel Mbonza Mayambi
+    Email : emmanuelmbonza@outlook.com
+*/
 
 #include <stdio.h>
 
