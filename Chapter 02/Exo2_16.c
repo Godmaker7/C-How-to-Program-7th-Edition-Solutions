@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 
+//function main begins program execution
 int main()
 {
     int num1;
@@ -43,4 +44,4 @@ int main()
     printf(" The cube of the difference is: %d\n", cube_difference);
 
     return 0;
-}
+}// end of function main
