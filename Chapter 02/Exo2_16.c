@@ -44,5 +44,4 @@ int main()
     printf(" The cube of the difference is: %d\n", cube_difference);
 
     return 0;
-}
-// end of function main
+}// end of function main
