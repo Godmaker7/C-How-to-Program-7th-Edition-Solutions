@@ -12,20 +12,16 @@
 
 #include <stdio.h>
 
+//function main begins program execution
 int main()
 {
-    int a, b, c, d;
 
     //a)//
     printf("1 2 3 4");
 
-    a = 1;
-    b = 2;
-    c = 3;
-    d = 4;
 
     //b)//
-    printf("\n%d %d %d %d", a, b, c, d);
+    printf("\n%d %d %d %d", 1, 2, 3, 4);
 
     //c)//
     printf("\n1 ");
@@ -34,4 +30,5 @@ int main()
     printf("4\n");
 
     return 0;
-}
+
+}//end of function main
