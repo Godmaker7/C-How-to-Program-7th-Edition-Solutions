@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+//function main begins program execution
 int main()
 {
     int counter=0;
