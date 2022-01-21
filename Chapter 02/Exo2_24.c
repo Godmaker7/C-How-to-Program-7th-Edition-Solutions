@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 
+//function main begins program execution
 int main()
 {
     printf("\n\t\t #ODD or EVEN#\n");
@@ -27,4 +28,4 @@ int main()
     }
 
     return 0;
-}
+}//end of function main
