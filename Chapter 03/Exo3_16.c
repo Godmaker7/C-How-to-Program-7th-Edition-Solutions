@@ -31,4 +31,4 @@ int main()
     printf("The overall average miles/gallons was %f\n", average);
 
     return 0;
-}
+}// end of function main
