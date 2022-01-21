@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 
+//function main begins program execution
 int main()
 {
     int num1, num2, num3;
@@ -52,4 +53,4 @@ int main()
 
 
     return 0;
-}
+}//end of function main
