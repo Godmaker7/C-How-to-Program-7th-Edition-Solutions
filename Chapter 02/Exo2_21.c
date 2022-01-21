@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+//function main begins program execution
 int main()
 {
     puts("");//print a new line//
@@ -64,4 +65,4 @@ int main()
     puts("");//print a new line//
 
     return 0;
-}
+}//end of function main
