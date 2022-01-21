@@ -1,3 +1,11 @@
+/*
+
+    Exercise : 13.16
+    Description :
+    Programmer : Emmanuel Mbonza Mayambi
+    Email : emmanuelmbonza@outlook.com
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
