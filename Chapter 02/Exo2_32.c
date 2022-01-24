@@ -7,40 +7,34 @@
 
 #include <stdio.h>
 
+//function main begins program execution
 int main()
 {
-    int weight, height, bmi;
+    double weight;
+    double height;
+    double bmi;
 
     printf("\n\tWelcome to the Body Mass Index(BMI) Calculator\n");
     printf("\t**********************************************");
 
     printf("\n Enter your weight (in kilograms) : ");
-    scanf("%d", &weight);
+    scanf("%lf", &weight);
 
-    printf(" Enter your height: ");
-    scanf("%d", &height);
+    printf(" Enter your height (in meters) : ");
+    scanf("%lf", &height);
 
+    //BMI Calculations
     bmi = (weight / (height * height));
-    printf("\n Your BMI is %d\n", bmi);
+    printf("\n Your BMI is %.1lf\n", bmi);
 
-    if ( bmi < 18.5 ){
-        printf(" You are Underweight\n");
-    }
-    else if ( bmi >= 18.5 ){
-        printf(" You are Normal\n");
-    }
-    else if ( bmi <= 24.9 ){
-        printf(" You are Normal\n");
-    }
-    else if ( bmi >= 25 ){
-        printf(" You are Overweight\n");
-    }
-    else if ( bmi <= 29.9 ){
-        printf(" You are Overweight\n");
-    }
-    else if( bmi >= 30 ){
-        printf(" Obese\n");
-    }
+    printf("\n ---------------------------------");
+    printf("\n BMI VALUES\n");
+    printf(" Underweight : less than 18.5\n");
+    printf(" Normal      : between 18.5 and 24.9\n");
+    printf(" Overweight  : between 25 and 29.9\n");
+    printf(" Obese       : 30 or greater\n");
+    printf(" ---------------------------------\n");
 
     return 0;
-}
+}// end of function main
+
