@@ -1,7 +1,6 @@
 /*
-
-    Exercise : 13.16
-    Description :
+    C Program : Gas Mileage
+    Exercise : 3.16
     Programmer : Emmanuel Mbonza Mayambi
     Email : emmanuelmbonza@outlook.com
 */
