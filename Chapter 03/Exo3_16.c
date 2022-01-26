@@ -6,36 +6,40 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 //function main begins program execution
 int main()
 {
-    int counter=0;
     float gallons;
     float miles;
+    float miles_per_gallon;
     float average;
-    float total=0;
+    float total;
 
-    while(gallons != -1){
-        printf("Enter the gallons used (-1 to end): ");
-        scanf("%f", &gallons);
-        if(gallons == -1){
-            break;
-        }
-        printf("Enter the miles driven: ");
+    //Initialization of variables average and total
+    float average = 0;
+    float total = 0;
+
+    printf("Enter the gallons used (-1 to end): ");
+    scanf("%f", &gallons);
+
+    while ( gallons != -1 ){
+
+        printf("Enter the miles driven : ");
         scanf("%f", &miles);
 
-        counter++;
+        miles_per_gallon = miles/gallons;
+        printf("The miles/gallon for this tank was %f\n\n", miles_per_gallon);
+        total = total + 1;
+        average = average + miles_per_gallon;
 
-        average= miles/gallons;
-        printf("The miles/gallons for this tank was %f.\n\n", average);
+        printf("Enter the gallons used (-1 to end): ");
+        scanf("%f", &gallons);
 
-        total = total + average;
     }
 
-    average= (float)total/counter;
-    printf("The overall average miles/gallons was %f\n", average);
+    average = average / total; //Calculation of overall average miles per gallon
+    printf("The overall average miles/gallon was %f\n", average);
 
     return 0;
 }// end of function main
