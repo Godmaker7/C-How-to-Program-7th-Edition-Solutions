@@ -19,11 +19,11 @@ int main()
         printf("  Enter the number : ");
         scanf("%d", &number);
 
-        smallest = number;
-
         if ( smallest > number ){
             smallest = number;
-        }
+        } else {
+            smallest = smallest;
+          }
 
         counter++;
 
