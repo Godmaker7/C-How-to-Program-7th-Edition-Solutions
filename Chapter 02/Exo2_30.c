@@ -20,15 +20,13 @@ int main()
     printf("\n  Enter the integer : ");
     scanf("%d", &integer);
 
-    puts("");//print a new line
+    int firstDigit = integer / 10000 % 10;
+    int secondDigit = integer / 1000 % 10;
+    int thirdDigit = integer / 100 % 10;
+    int fourthDigit = integer / 10 % 10;
+    int fifthDigit = integer % 10;
 
-    while(integer > 0) //do till integer greater than  0
-    {
-        int mod = integer % 10;  //split last digit from number
-        printf("%d   ",mod); //print the digit.
-
-        integer = integer / 10;    //divide integer by 10.
-    }
+    printf("\n  %d   %d   %d   %d   %d\n", firstDigit, secondDigit, thirdDigit, fourthDigit, fifthDigit);
 
     return 0;
 }//end of function main
